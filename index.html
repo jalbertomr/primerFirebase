@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi Aplicacion Firebase</title>
+  </head>
+  <body>
+      v1.002
+      <h1>Iniciar sesión</h1>
+      <button id="login">Inicia con Google</button>
+      <div id="root"></div>
+      <button id="guardar">Guardar</button>
+
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+
+
+        <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSBLABLALBALBLA-LAQUEDEFIREBASEMUOGoROFU7w",
+            authDomain: "arrancafirebase.firebaseapp.com",
+            databaseURL: "https://arrancafirebase.firebaseio.com",
+            projectId: "arrancafirebase",
+            storageBucket: "arrancafirebase.appspot.com",
+            messagingSenderId: "496630684549"
+          };
+          firebase.initializeApp(config);
+        </script>
+        <script src="app.js"></script>
+  </body>
+</html>
